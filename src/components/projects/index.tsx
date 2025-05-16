@@ -4,6 +4,7 @@ import { ProjectCard } from "./components/project-card";
 import { Button } from "@heroui/button";
 import { BsArrowDownShort, BsArrowUpShort } from "react-icons/bs";
 import { projectsRepos } from "./consts";
+import { twMerge } from "tailwind-merge";
 
 export const Projects = () => {
 	const [isShowingAll, setIsShowingAll] = useState(false);
@@ -36,7 +37,7 @@ export const Projects = () => {
 
 			<ul
 				ref={ulRef}
-				className="grid grid-cols-2 gap-x-4 gap-y-10 overflow-hidden transition-[height] animate-in fade-in-0 duration-200"
+				className={twMerge("grid grid-cols-2 gap-x-4 gap-y-10 overflow-hidden transition-[height] animate-in fade-in-0 duration-200", isShowingAll && 'h-full')}
 				style={{
 					height: isShowingAll ? fullHeight : 560,
 				}}

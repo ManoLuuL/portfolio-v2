@@ -8,7 +8,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
 	const { description, image, title, skills, source, website } = props;
 
 	return (
-		<li className="col-span-2 md:col-span-1 max-h-[33rem] h-fit flex">
+		<li className="col-span-2 md:col-span-1 max-h-[33rem] h-full flex">
 			<Card className="size-full bg-transparent text-white border border-gray-300">
 				<CardHeader className="p-0">
 					<img
@@ -21,7 +21,9 @@ export const ProjectCard = (props: ProjectCardProps) => {
 				<CardBody>
 					<div className="pt-2 pb-6 w-full">
 						<h4 className="font-bold">{title}</h4>
-						<span className="text-sm">{description}</span>
+						<div className="overflow-auto h-[75px]">
+							<span className="text-sm">{description}</span>
+						</div>
 					</div>
 
 					<section className="flex gap-2 flex-wrap">

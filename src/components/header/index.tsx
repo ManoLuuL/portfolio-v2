@@ -12,12 +12,12 @@ export const Header = () => {
 			transition={{ type: "spring", stiffness: 100, damping: 15 }}
 		>
 			<section className="mb-2 justify-between flex items-center">
-				<h2 className="text-[44px] font-bold">Luis Ricardo</h2>
+				<h2 className="text-[44px] font-bold">Luis Ricardo C. Couto</h2>
 				<div className="hidden md:flex" />
 			</section>
 
 			<section className="flex items-center justify-between mb-1">
-				<h3 className="text-muted-foreground text-2xl">Software Engineer</h3>
+				<h3 className="text-muted-foreground text-2xl">Software Engineer - Front-End</h3>
 				<div className="flex md:hidden" />
 			</section>
 
@@ -31,7 +31,7 @@ export const Header = () => {
 					endContent={<BsDownload className="size-4" />}
 					className="text-white data-[hover=true]:!bg-gray-700/50"
 				>
-					<a href="profile.pdf" download={true}>
+					<a href="curriculo.pdf" download={true}>
 						Resume
 					</a>
 				</Button>

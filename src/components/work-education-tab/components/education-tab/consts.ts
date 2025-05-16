@@ -1,12 +1,12 @@
 export const educationTabData = [
     {
         university: "Unimar",
-        qualification: "Pós-graduação em Full Stack",
+        qualification: "Pós-graduação em Full-Stack",
         years: "2024 - 2025",
     }, {
         university: "Unisagrado",
         qualification: "Bacharelado em Ciência da Computação",
-        years: "2020 - 2023",
+        years: "2020 - 2024",
     },
     {
         university: "Udemy",
