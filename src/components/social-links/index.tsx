@@ -7,7 +7,7 @@ export const SocialLinks = () => {
 			<SocialLink icon={BsGithub} href="https://github.com/manoluul" />
 			<SocialLink
 				icon={BsLinkedin}
-				href="https://www.linkedin.com/in/luis-ricardo-coelho-couto-26ba151b4/"
+				href="https://www.linkedin.com/in/luisricardocoelhocouto/"
 			/>
 			<SocialLink icon={BsEnvelope} href="mailto:ticocouto_14@hotmail.com" />
 		</ul>

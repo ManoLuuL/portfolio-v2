@@ -3,7 +3,7 @@ import { ProjectCardProps } from "./components/project-card/types";
 export const projectsRepos: ProjectCardProps[] = [
     {
         title: 'Kanban Board',
-        description: 'Sistema de gerenciamento de tarefas simples com a funcionalidade de arrastar e soltar utilizando React Beautiful DnD.',
+        description: 'Simple task management system with drag-and-drop functionality using React Beautiful DnD.',
         image: 'kanban.jpg',
         source: 'https://github.com/ManoLuuL/kanban-board',
         website: 'https://kanban-board-manoluul.vercel.app/',
@@ -11,51 +11,50 @@ export const projectsRepos: ProjectCardProps[] = [
     },
     {
         title: 'BookStore API',
-        description: 'API voltada para gerenciamento de livraria, seguindo o padrão de Request, Controller, Service, Repository e Resource.',
+        description: 'API for bookstore management, following the Request, Controller, Service, Repository, and Resource pattern.',
         image: 'bookstore.png',
         source: 'https://github.com/ManoLuuL/pos-livraria',
         skills: ['PHP', 'Laravel', 'MySQL', 'JWT'],
     },
     {
-        title: 'Gerenciamento de Consultas',
-        description: 'Aplicação Full-Stack para gerenciar consultas médicas, tendo o controle de pacientes e consultas.',
+        title: 'Appointment Management',
+        description: 'Full-Stack application to manage medical appointments, with patient and appointment control.',
         image: 'consultorio.png',
         source: 'https://github.com/ManoLuuL/pos-fund-web',
         skills: ['Vue', 'PHP', 'Pinia', 'TailwindCSS', 'Laravel', 'Element Plus'],
     },
-     {
-        title: 'Portifolio V.1',
-        description: 'Primeiro portifiolio desenvolvido com base nas aprendizagens adquiridas.',
+    {
+        title: 'Portfolio V.1',
+        description: 'First portfolio developed based on acquired learnings.',
         image: 'portifoliov1.png',
         source: 'https://github.com/ManoLuuL/projeto-pos-front-end',
-        website: 'https://portifolio-manoluul.vercel.app/',
         skills: ['NextJs', 'Typescript', 'TailwindCSS'],
     },
-     {
+    {
         title: 'Explore Countries',
-        description: 'Aplicação desenvolvida em React Router, para busca de dados do local pesquisado.',
+        description: 'Application developed with React Router to search for location data based on the search query.',
         image: 'routerproject.png',
         source: 'https://github.com/ManoLuuL/react-router-project',
         skills: ['React', 'Typescript', 'React Router', 'TailwindCSS'],
     },
     {
         title: 'MealApp',
-        description: 'Aplicativo em Flutter que utiliza o TheMealDB, utilizando o MVC, assim tendo a listagem e demais funções.',
+        description: 'Flutter app using TheMealDB API, following the MVC pattern, including listing and other features.',
         image: 'mealapp.png',
         source: 'https://github.com/ManoLuuL/MealApp_Pos',
         skills: ['Flutter', 'Dart'],
     },
     {
-        title: 'Dispensa Saudavel',
-        description: 'Sistema de receitas, com filtragem por ingredientes e outros recursos como IMC, dietas.',
+        title: 'Healthy Pantry',
+        description: 'Recipe system with ingredient-based filtering and additional features such as BMI calculation and diet tracking.',
         image: 'despensasaudavel.png',
         source: 'https://github.com/ManoLuuL/despensa-saudavel',
         website: 'https://despensa-saudavel.vercel.app/',
         skills: ['Typescript', 'PostgreSQL', 'React', 'Python'],
     },
-     {
+    {
         title: 'Posts App',
-        description: 'Aplicação desenvolvida com Vue, com API JSON Placeholder, simulando um blog com posts.',
+        description: 'Application developed with Vue and the JSON Placeholder API, simulating a blog with posts.',
         image: 'postsapp.png',
         source: 'https://github.com/ManoLuuL/projeto-pos-front-end',
         skills: ['Vue', 'JavaScript', 'Pinia', 'TailwindCSS'],

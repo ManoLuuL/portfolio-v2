@@ -11,17 +11,17 @@ export const workExperienceTabData = [
     },
     {
         company: "FRG Gestão Inteligente",
-        qualification: "Desenvolvedor - Estágio",
+        qualification: "Developer - Internship",
         years: "Jan de 2022 - Abr de 2022",
     },
     {
         company: "FRG Gestão Inteligente",
-        qualification: "Suporte ao Cliente - Estágio",
+        qualification: "Customer Support - Internship",
         years: "Abr de 2021 - Dez de 2021",
     },
     {
-        company: "Recanto do Artesanato (Autônomo)",
-        qualification: "Proprietário",
+        company: "Recanto do Artesanato",
+        qualification: "Owner and Entrepreneur",
         years: "Jul de 2020 - Abr de 2022",
     },
 ]

@@ -1,7 +1,7 @@
 import { Container } from "./components/container";
-import { Projects } from "./components/projects";
-import { Skills } from "./components/skills";
-import { WorkEducationTab } from "./components/work-education-tab";
+import { Projects } from "./layout/projects";
+import { Skills } from "./layout/skills";
+import { WorkEducationTab } from "./layout/work-education-tab";
 
 function App() {
 	return (

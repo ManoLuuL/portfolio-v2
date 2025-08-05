@@ -1,7 +1,7 @@
 import { Button } from "@heroui/button";
 import { motion } from "framer-motion";
 import { BsPinMap, BsDownload } from "react-icons/bs";
-import { SocialLinks } from "../social-links";
+import { SocialLinks } from "../../components/social-links";
 
 export const Header = () => {
 	return (
@@ -17,7 +17,7 @@ export const Header = () => {
 			</section>
 
 			<section className="flex items-center justify-between mb-1">
-				<h3 className="text-muted-foreground text-2xl">Software Engineer - Front-End</h3>
+				<h3 className="text-muted-foreground text-2xl">Front-end Developer PL</h3>
 				<div className="flex md:hidden" />
 			</section>
 
@@ -31,7 +31,7 @@ export const Header = () => {
 					endContent={<BsDownload className="size-4" />}
 					className="text-white data-[hover=true]:!bg-gray-700/50"
 				>
-					<a href="curriculo.pdf" download={true}>
+					<a href="curriculo_harvard.pdf" download={true}>
 						Resume
 					</a>
 				</Button>
